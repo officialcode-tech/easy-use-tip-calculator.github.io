@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>JAVASCRIPT+CSS+HTML</title>
+		<link rel="stylesheet" type="text/css" href="cssforjavascript.css">
+		
+	
+	</head>
+	
+	
+	
+	<body>
+	<div id="container">
+		<div id="calculator">
+			<h1>TIP CALCULATOR</h1>
+		
+		</div>
+		<p>How much was your bill?</p>
+	
+		<input type="hidden" id="current_user_bill_no" value="2" placeholder="Bill Amount">
+		<p>Rs.
+		<input type="text" class="firstinputid" id="firstinputid_1" placeholder="Bill Amount">
+		<input  type="button" onclick="pankaj();" value="ADD MORE BILL">
+		
+		</p>
+		<div id="add_users_bill"></div>
+		<p>How was your service?<br><br>
+		<select id="selecctid">
+		<option disabled selected value="o">--Choose An Option--</option>
+		<option  id="selectid">15%-Outstanding</option>
+		<option  id="secondselectid">10%-Good</option>
+		<option  id="thirdselectid">5%-It Was Ok</option>
+		</select>
+		
+		</p>
+		
+		<p>How many people are sharing bills?</p>
+		<p>
+		
+			<input placeholder="Number Of People" type="text" id="secondinputid">
+			People
+		
+		</p>
+		<p>
+			<button type="button" id="button" onclick="calculate();">CALCULATE</button>
+		</p>
+		
+		
+		<div id="tipamount">
+		
+		<sup>Rs.</sup><span id ="amountt" >0.00</span>
+		<p >
+		<small id="each">each</small>
+		</p>
+	</div>
+		
+		</div>
+	</div>
+	
+	
+	<script type="text/javascript" src="js.js"></script>
+		
+		
+	</body>
+
+
+</html>
